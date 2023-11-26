@@ -11,9 +11,9 @@ export default function Movies2(){
     if (!data) return <div>carregando...</div>
 
     return (
-        <div>
+        <div className='flex flex-col justify-center m-32'>
           {data.Search.map((m) => (
-            <div key={m.imdbID}>
+            <div key={m.imdbID} className='p-4 border-2 border-red-500 rounded-xl my-4 flex justify-center'>
               <Link href={`/receita4/${m.imdbID}`}>
                 <p>{m.Title}</p>
               </Link>
