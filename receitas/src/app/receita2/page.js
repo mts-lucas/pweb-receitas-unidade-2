@@ -7,9 +7,9 @@ export default function Principal(){
     let mark = 'Redonda';
     return (
  
-       <div>
+       <div className="flex flex-col justify-center items-center">
  
-          <h1>Nova Página</h1>
+          <h1 className='text-gray-400 font-bold text-4xl'>Nova Página</h1>
             
           <MariaPrea/>
           <MyTable nome={name} marca={mark}/>
@@ -25,7 +25,7 @@ export function MariaPrea(){
 
     return (
     
-        <h2>Morreu Maria Preá...</h2>
+        <h2 className='text-violet-500 font-bold text-4xl'>Morreu Maria Preá...</h2>
     
     )
     
