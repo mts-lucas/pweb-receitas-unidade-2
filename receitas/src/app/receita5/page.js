@@ -85,7 +85,7 @@ export function TheLink({url, handler}){
 
         <div className='flex justify-center'>
 
-            <a className='bg-blue-500 rounded-lg p-3' href="/movies3.js" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
+            <a className='bg-blue-500 rounded-lg p-3' href="/receita5" onClick={handler}> {url === '' ? 'Mostrar' : 'Ocultar'} </a>
 
         </div>
 
