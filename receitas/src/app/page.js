@@ -36,7 +36,6 @@ export default function Home() {
             <p className="font-semibold text-xl bg-blue-500 p-4 rounded-xl">Receita 6</p>
           </Link>
         </li>
-        
       </ul>
     </div>
   );
