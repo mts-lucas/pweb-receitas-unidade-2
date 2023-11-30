@@ -4,7 +4,7 @@ import useSWR from 'swr'
 
 export default function MovieDetail({ params }){
 
-    const {data, error} = useSWR(`http://www.omdbapi.com/?apikey=${process.env.NEXT_PUBLIC_MYKEY}&i=${params.imdbID}`, fetcher)    
+    const {data, error} = useSWR(`https://www.omdbapi.com/?apikey=${process.env.NEXT_PUBLIC_MYKEY}&i=${params.imdbID}`, fetcher)    
 
     if (error) return <div>falha na requisição...</div>
 
