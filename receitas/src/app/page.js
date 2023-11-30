@@ -23,7 +23,7 @@ export default function Home() {
         </li>
         <li className="p-4">
           <Link href="/receita4">
-            <p className="font-semibold text-xl bg-blue-500 p-4 rounded-xl">Receita 1</p>
+            <p className="font-semibold text-xl bg-blue-500 p-4 rounded-xl">Receita 4</p>
           </Link>
         </li>
         <li className="p-4">
